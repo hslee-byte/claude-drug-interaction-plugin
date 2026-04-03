@@ -1,0 +1,9 @@
+{
+  "name": "drug-interaction",
+  "description": "Drug interaction checker — input multiple drug names, get interaction risk analysis with severity grading, mechanism explanation, alternatives, and patient-friendly medication guides. Built for pharmacists and physicians.",
+  "version": "1.0.0",
+  "author": {
+    "name": "HS Lee",
+    "url": "https://github.com/Ark-Point"
+  }
+}
