@@ -36,6 +36,21 @@ Drug names → Interaction analysis → Severity grading → Alternatives → Me
 claude plugin add hslee-byte/claude-drug-interaction-plugin
 ```
 
+## Use In Codex
+
+This repository also includes a Codex-ready skill folder:
+
+- `codex-skills/drug-interaction`
+
+Manual install:
+
+1. Copy `codex-skills/drug-interaction` into `$CODEX_HOME/skills/drug-interaction`
+2. Restart Codex
+
+If you do not want to install a skill, use the portable prompt in:
+
+- `prompts/drug-interaction-portable-prompt.md`
+
 ## Usage
 
 ```
@@ -98,6 +113,21 @@ Accepts both generic names and Korean brand names.
 ```bash
 claude plugin add hslee-byte/claude-drug-interaction-plugin
 ```
+
+### Codex에서 사용
+
+이 저장소에는 Codex용 스킬 폴더도 포함되어 있습니다.
+
+- `codex-skills/drug-interaction`
+
+수동 설치 방법:
+
+1. `codex-skills/drug-interaction` 폴더를 `$CODEX_HOME/skills/drug-interaction`로 복사
+2. Codex 재시작
+
+설치 없이 바로 쓰고 싶다면 아래 중립 프롬프트를 사용하면 됩니다.
+
+- `prompts/drug-interaction-portable-prompt.md`
 
 ### 사용법
 
