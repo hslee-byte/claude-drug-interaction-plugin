@@ -27,6 +27,12 @@ Use this skill when the user wants professional medication interaction review fr
    - timing or substitution options
 6. If asked, create a patient-friendly medication schedule and counseling note.
 
+## Mode
+
+- Default to `Lite`
+- Switch to `Deep` when the user asks for timing plans, alternatives, or detailed counseling
+- In `Lite`, minimize clarification questions and focus on high-risk findings
+
 ## Output Rules
 
 For clinically important findings, separate:

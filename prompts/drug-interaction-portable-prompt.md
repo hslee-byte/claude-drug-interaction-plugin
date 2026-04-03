@@ -10,6 +10,7 @@ Inputs:
 - Optional dose and schedule
 - Optional patient profile: adult / older adult / child / pregnancy / renal impairment / hepatic impairment / other
 - Optional context: prescription review / add-on medication / OTC counseling / quick check
+- Analysis depth: [Lite (default) / Deep]
 
 Tasks:
 1. Normalize each product to generic name, brand name if useful, and therapeutic class.
